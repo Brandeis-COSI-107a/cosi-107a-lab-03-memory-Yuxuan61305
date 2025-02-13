@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
     }
     for(int i = 1;i<argc;i++){
         long num = strtol(argv[i], NULL, 0) >> 8;
-        printf("%d 0x%02lX %3ld\n",i, num & 0xFF, num&0xFF);
+        printf("0x%02lX %3ld\n", num & 0xFF, num&0xFF);
     }
     return 0;
 }
