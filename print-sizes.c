@@ -20,5 +20,5 @@ pointer = array;
 printf("The size of my character pointer is %zu\n", sizeof(pointer));
 p = &x;
 printf("The size of my int pointer is %zu\n", sizeof(p));
-printf("The size of my int pointer points at is %zu\n", sizeof(*p));
+printf("The size of what my int pointer points at is %zu\n", sizeof(*p));
 }
